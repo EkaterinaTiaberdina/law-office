@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1e313e;
+    padding: 10px;
+}
+.item {
+    color: #efd3a2;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-header {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    text-transform: uppercase;
+    color: #1e313e;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-about {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e313e;
+    padding: 60px;
+}
+.about-us {
+    align-self: center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    display: flex;
+    background-color: #1e313e;
+    padding: 80px;
+    color: white;
+}
+.reason-block {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+span {
+    color: #1e313e;
+    background-color: #bb8a5e;
+    border-radius: 50px;
+    font-size: 70px;
+    margin: 40px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.services {
+    display: flex;
+    justify-self: center;
+    background-color: #1e313e;
+    padding: 60px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    background-color: #1e313e;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    background-color: #1e313e;
+    padding: 50px;
+}
+.footer-container {
+    background-color: #1e313e;
+    padding: 5px;
+}
+.footer {
+    color: #efd3a2;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #efd3a2;
+    text-decoration: none;
+    font-size: 16px;
+}
+button {
+    padding: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #1e313e;
+}
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    height:500px;
+    width:600px;
+}
+@media all and (max-width: 1080px) {
+    
+    .wrapper {
+        padding: 0;
+    }
+    .reason-block {
+        padding: 0;
+    }
+    .section-about-image {
+        height: 250px;
+    }
+}
+@media all and (max-width: 800px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .item {
+        padding: 10px;
+    }
+    .section-about {
+        flex-wrap: wrap;
+    }
+    button {
+        padding: 15px;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    span {
+        padding: 15px;
+    }
+    .reason-block {
+        padding: 20px;
+    }
+    .price-image {
+        width: 250px;
+    }
+}
+@media all and (max-width: 540px) {
+    .item {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .section-about {
+        padding: 27px;
+    }
+    .about-us {
+        font-size: 15px;
+        padding: 10px;
+        margin: 0;
+    }
+    .wrapper {
+        padding: 10px;
+    }
+    .reason-block {
+        padding: 10px;
+    }
+    span {
+        margin: 10px;
+    }
+    .services {
+        padding: 10px;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .map {
+        padding: 35px;
+    }
+    iframe {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .mapouter {
+        position: static;
+        width: 300px;
+        height: 300px;
+    }
+    .gmap_canvas {
+        width: 300px;
+        height: 300px;
+        border: 0;
+    }
+    .footer {
+        font-size: 12px;
+    }
+    a {
+        font-size: 12px;
+    }
+    .price {
+        text-align: center;
+    }
+}

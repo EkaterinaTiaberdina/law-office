@@ -1,12 +1,12 @@
 # law-office - Сайт кабинета адвокатов
 
-:arrow_forward: Сайт прост и понятен в использовании.
+:arrow_forward: Адаптивный дизайн под мобильные устройства
 
-:arrow_forward: Присутствует анимация ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+:arrow_forward: Анимация ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 
-:arrow_forward: Полное описание предоставляемых услуг.
+:arrow_forward: Кнопка `CALL US NOW`
 
-:arrow_forward: Есть кнопка для связи.
+:arrow_forward: Карта Google Maps
 
 #
 
